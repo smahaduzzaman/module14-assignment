@@ -8,9 +8,9 @@ Module: 14
 - Phone: 01729-972223
 
 ## Steps:
-Step 1: Create a new Laravel porject named: module14-assignment
-Step 2: Create Routes in the both web and api file
-Step 3: Create a Controller named AssignmentController
+- Step 1: Create a new Laravel porject named: module14-assignment
+- Step 2: Create Routes in the both web and api file
+- Step 3: Create a Controller named AssignmentController
 
 ## Assignment Description:
 This assignment focuses on various aspects of Laravel application development. It includes tasks related to form submission, retrieving request data, handling API endpoints, creating JSON responses, file upload handling, and routing. Each question provides a specific requirement, and you are expected to write the corresponding code to fulfill the task.
