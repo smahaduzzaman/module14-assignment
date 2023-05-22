@@ -17,7 +17,8 @@ class AssignmentController extends Controller
     // get name from body request
     public function submitForm2(Request $request)
     {
-        $name = $request->input(key: 'name');
+$name = $request->input(key:'name');
+
         return $name;
     }
 
@@ -60,11 +61,12 @@ class AssignmentController extends Controller
             $filename = $file->getClientOriginalName();
             $file->storeAs('uploads', $filename, 'public');
         }
-        return 'Upload success';
+return 'Upload Successful';
+
     }
 
     // Question 6: Get Cookie
-    public function getCookie(Request $request)
+    public function getCookie(Request $request): string
     {
         $rememberToken = $request->cookie('remember_token', null);
         return $rememberToken;

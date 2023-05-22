@@ -1,18 +1,18 @@
-# Assignment: Laravel Foundation Step-13
+Assignment: Laravel Foundation Step-13
 
 Module: 14
 
-## Author Info:
+Author Info:
 - Name: S M Ahaduzzaman
 - Email: smahaduzzaman96@gmail.com
 - Phone: 01729-972223
 
-## Steps:
+Steps:
 - Step 1: Create a new Laravel porject named: module14-assignment
 - Step 2: Create Routes in the both web and api file
 - Step 3: Create a Controller named AssignmentController
 
-## Assignment Description:
+Assignment Description:
 This assignment focuses on various aspects of Laravel application development. It includes tasks related to form submission, retrieving request data, handling API endpoints, creating JSON responses, file upload handling, and routing. Each question provides a specific requirement, and you are expected to write the corresponding code to fulfill the task.
 
 - Question 1: Retrieve the 'name' input field value from a POST request and store it in the variable $name.

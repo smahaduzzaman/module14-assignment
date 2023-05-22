@@ -21,7 +21,8 @@ Route::get('/json', [AssignmentController::class, 'jsonResponse']);
 Route::post('/upload', [AssignmentController::class, 'uploadAvatar']);
 
 // Question 6: Get Cookie
-Route::get('/cookie', [AssignmentController::class, 'getCookie']);
+Route::post('/cookie', [AssignmentController::class, 'getCookie']);
+
 
 // Question 7: Get Session
 Route::post('/submit', function (Request $request) {

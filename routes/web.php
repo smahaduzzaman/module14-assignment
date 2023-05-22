@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 // Question 1: Get Input value from form
 Route::post('/submit-form/{name}', [AssignmentController::class, 'submitForm']);
-Route::get('/submit-form2', [AssignmentController::class, 'submitForm2']);
+Route::post('/submit-form2', [AssignmentController::class, 'submitForm2']);
+
 
 // Question 2: Get User Agent from header
 Route::get('/user-agent', [AssignmentController::class, 'userAgent']);
@@ -21,7 +22,8 @@ Route::get('/json', [AssignmentController::class, 'jsonResponse']);
 Route::post('/upload', [AssignmentController::class, 'uploadAvatar']);
 
 // Question 6: Get Cookie
-Route::get('/cookie', [AssignmentController::class, 'getCookie']);
+Route::post('/cookie', [AssignmentController::class, 'getCookie']);
+
 
 // Question 7: Get Session
 Route::post('/submit', function (Request $request) {
